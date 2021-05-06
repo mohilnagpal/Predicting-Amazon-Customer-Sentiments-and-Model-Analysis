@@ -12,7 +12,7 @@ In this project two different types of BOW models are used: CountVectorizer & Te
 
 The data are composed of a row of sentences. In order to reduce the complexity, the words common in english language such as “a”, “and”, “the” have been cleaned.
 
-With all this done, data vectors(Here:114969) produced with the help of BOW models are ready to be trained and tested. But before extracting these features from the dataset pre-processing and visualization is performed on the dataset. In the provided dataset all the customers have given a score between 1 to 5 to each of the product 1 being the lowest and 5 being the highest. For better classification the score of 3 is removed due to its neutral nature and score of 4,5 and 1,2 are mapped as 1,0 respectively.  
+With all this done, data vectors(Here:114969) produced with the help of BOW models are ready to be trained and tested. But before extracting these features from the dataset pre-processing and visualization is performed on the dataset. In the provided dataset all the customers have given a score between 1 to 5 to each of the product 1 being the lowest and 5 being the highest. For better classification the score of 3 is discarded due to its neutral nature and score of 4,5 and 1,2 are mapped as 1,0 respectively.  
 
 The dataset is split in the ratio of 7:3. 67% of the extracted data is the training data and 33% of the extracted data is the test data. 
 
@@ -29,7 +29,9 @@ After running these models on the dataset with two different Bag Of Word models 
 
 ![image](https://user-images.githubusercontent.com/49190511/117346439-5bfc8c00-aec5-11eb-8e44-5300ff6f76cf.png)
 
-Logistic Regression Model with CountVectorizer model has the highest accuracy of 93.61%
+Logistic Regression Model with CountVectorizer model has the highest accuracy of 93.61% as shown on the chart.
+
+
 
 
 
