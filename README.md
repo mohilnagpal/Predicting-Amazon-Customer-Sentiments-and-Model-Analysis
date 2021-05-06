@@ -3,7 +3,7 @@
 Dataset: https://drive.google.com/file/d/1DGj_UYqRVwjMuV54-YPgerDLOFBPunjA/view?usp=sharing
 
 
-Abstract
+#### Abstract
 The aim of the project is to develop a Natural Language Processing model to predict the customer sentiments of Amazon. Natural Language Processing is a technique used by a computer to understand and manipulate natural languages. By natural languages, I mean all human derived languages. Natural language processing or NLP for short is used to analyze text and let machines derive meaning from the input. In this project, I have made use of some established NLP techniques to evaluate the sentiments of the customers shopping on Amazon with the help of dataset that contains score, product id and reviews of more than 50,000 Amazon customers.
 
 For training the dataset it is important to convert string values/categorical values into numeric representation. To solve this problem pre-processing of data and ‘Bag of Words’ model is required. The Bag of Words model learns a vocabulary from all of the documents, then models each document by counting the number of times each word appears. These values are the feature vectors that are derived from the model. 
