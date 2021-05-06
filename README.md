@@ -25,7 +25,7 @@ Models used in this projects are:
 
 After running these models on the dataset with two different Bag Of Word models we have 6 different accuracies for comparison.
 
-##RESULT
+## RESULT
 
 ![image](https://user-images.githubusercontent.com/49190511/117346439-5bfc8c00-aec5-11eb-8e44-5300ff6f76cf.png)
 
